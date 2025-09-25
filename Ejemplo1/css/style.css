@@ -1,0 +1,13 @@
+p {
+    color: red;
+    font-size: 30px;
+}
+h1{
+    color: blue;
+}
+.estiloparrafo {
+    color:blueviolet
+}
+.estiloCapa {
+    border: 2px outset blue
+}
