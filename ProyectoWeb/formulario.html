@@ -11,7 +11,19 @@
         <input type="text" id="Nombre" name="Nombre" placeholder="Escribe aqui"><br>
         <h3><label for="Apellidos"> Apellidos</label></h3>
         <input type="text" id="Apellidos" name="Apellidos" placeholder="Escribe aqui"><br>
-        
+        <h3><label for="Ciudad">Ciudad</label></h3>
+        <select name="select">
+            <option value="ciudad1">Jaén</option>
+            <option value="ciudad2">Córdoba</option>
+            <option value="ciudad3">Málaga</option>
+            <option value="ciudad4">Granada</option>
+        </select><br>
+        <h3><label for="Preferencias">Preferencias</label></h3>
+        <input type="checkbox" id="Musica" name="Musica" value="Musica">
+        <label for="Musica">Musica</label><br>
+        <input type="checkbox" id="Deporte" name="Deporte" value="Deporte">
+        <label for="Deporte">Deporte</label><br><br>
+        <button type="button" onclick="alert('Datos enviados correctamente')">Enviar datos </button>
     </form>
 </body>
 </html>
