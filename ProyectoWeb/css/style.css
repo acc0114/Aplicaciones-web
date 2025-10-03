@@ -1,0 +1,186 @@
+/* Reset básico */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Contenedor principal */
+body {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2, h3, h4 {
+    color: #34495e;
+    margin-top: 30px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Imagen */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Listas */
+ol, ul {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Enlaces */
+a {
+    display: inline-block;
+    margin: 5px 0;
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1abc9c;
+}
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 900px;
+}
+
+/* Estilo general */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 900px;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Título */
+caption {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Encabezado */
+tr:first-child td {
+    background-color: #2c3e50;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Celdas */
+td {
+    padding: 14px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+/* Fila de descanso */
+tr:nth-child(5) td {
+    background-color: #ecf0f1;
+    font-style: italic;
+    color: #7f8c8d;
+}
+
+/* Alternancia de filas */
+tr:nth-child(even):not(:first-child):not(:nth-child(5)) {
+    background-color: #f9f9f9;
+}
+
+/* Hover */
+tr:hover td {
+    background-color: #dfe6e9;
+    transition: background-color 0.3s ease;
+}
+
+/* Formulario */
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Etiquetas */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #2c3e50;
+}
+
+/* Inputs y select */
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Checkboxes */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+h3 {
+    margin-bottom: 5px;
+    color: #34495e;
+}
+
+/* Botón */
+button {
+    background-color: #2980b9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #1abc9c;
+}
